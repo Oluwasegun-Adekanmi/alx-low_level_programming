@@ -7,10 +7,10 @@
  * Return: Always 1 (succes)
  *
 */
-int main(void)
+int main(void);
 
 	/* Program goes right here*/
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19", 59);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19", 60);
 	return (1);
 }
