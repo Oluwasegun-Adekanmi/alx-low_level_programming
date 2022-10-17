@@ -1,9 +1,12 @@
 # include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-/* more headers goes there */
-/* betty style doc for function main goes there */
+/**
+ * main - assign random number to variable n
+ *
+ * Return: Always 0 (success)
+ *
+*/
 
 int main(void)
 {
