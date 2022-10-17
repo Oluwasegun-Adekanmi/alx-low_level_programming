@@ -5,7 +5,7 @@
 /**
  * main - print the last digit of the number stored in the variable n
  *
- * Retun: Always 0 (success)
+ * Return: Always 0 (success)
 */
 
 int main(void)
@@ -27,7 +27,7 @@ int main(void)
 					}
 					else
 					{
-						printf("The last digit of %d is %d and is less than 6 and not 0\n", n, a);
+						printf("Last digit of %d is %d and is less than 6 and not 0\n", n, a);
 					}
 
 					return (0);
