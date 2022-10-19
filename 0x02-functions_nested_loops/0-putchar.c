@@ -1,3 +1,11 @@
+#include "main.h"
+/**
+ *
+ * main - Entry point for the progam
+ *
+ * Return: Always 0 (success)
+ *
+*/
 int main(void)
 {
 	_putchar('_');
