@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point for the program
+ * print_alphabet - Entry point for the program
  *
  * Return: Always 0 (success)
  *
@@ -8,17 +8,9 @@
 
 void print_alphabet(void)
 {
-	char lowcase;
+	char lc;
 
-	for
-	       (lowcase = 'a');
-	       (lowcase <= 'z');
-		lowcase++;
-
-	{
-		_putchar(lowcase);
-	}
-		_putchar('\n');
-
-	return (0);
+	for (lc = 'a'; lc <= 'z'; lc++)
+		_putchar(lc);
+	_putchar('\n');
 }
