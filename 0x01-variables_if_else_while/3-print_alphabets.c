@@ -1,25 +1,19 @@
 #include <stdio.h>
-#include <unistd.h>
-/**
- * main - Entry point into the program
- *
- * Return: Always 0 (success)
- *
-**/
 
+/**
+ *main-program entry point.
+ *Return:0 no error, non zero if error.
+ **/
 int main(void)
 {
 	char i;
 	char r;
 
-	for
-		(i = 'a'; i <= 'z'; i++);
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		putchar(i);
 	}
-
-	for
-		(r = 'A'; r <= 'Z'; r++);
+	for (r = 'A'; r <= 'Z'; r++)
 	{
 		putchar(r);
 	}
