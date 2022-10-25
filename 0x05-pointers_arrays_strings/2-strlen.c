@@ -2,7 +2,7 @@
 /**
  * _strlen - prints the length of strings
  * @*s: argument to be printed.
- * Return:void
+ * Return:length
  *
 */
 
@@ -10,9 +10,10 @@ int _strlen(char *s)
 {
 	int count = 0;
 	
-	while (*(s + count) != 0)
+	while (*s != 0)
 	{
 		count++;
+		s++
 	}
-	return (p);
+	return (count);
 }
