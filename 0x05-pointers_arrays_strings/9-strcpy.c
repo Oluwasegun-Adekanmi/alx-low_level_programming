@@ -9,14 +9,14 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	int length = 0;
+	int count = 0;
 
-	while (length >= 0)
+	while (count >= 0)
 	{
-		*(dest + length) = *(src + length);
-		if (*(src + length) == '\0')
+		*(dest + count) = *(src + count);
+		if (*(src + count) == '\0')
 			break;
-		length++;
+		count++;
 	}
 	return (dest);
 }
