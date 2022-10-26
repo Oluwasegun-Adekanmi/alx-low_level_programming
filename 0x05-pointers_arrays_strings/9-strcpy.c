@@ -1,5 +1,5 @@
 #inlcude "main.h"
-
+#include <stdio.h>
 /**
  * _strcpy - copys string pointed by the source
  * @dest: destination
