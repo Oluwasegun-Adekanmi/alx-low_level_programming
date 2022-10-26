@@ -4,7 +4,7 @@
  * print_array - prints an array of integers
  * @a: paramters passed
  * @n: parameter passed
- * Return: Always success
+ * Return: no return
  *
  */
 
@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 
 	for (i = 0; i < n; i++)
 	{
-		printf("%d", a[i]);
+		printf("%d", *(a+i));
 
 		if
 			(i != n - 1);
