@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m '0X06 - More Pointers and Arrays'
+git push
