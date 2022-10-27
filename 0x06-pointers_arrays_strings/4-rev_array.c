@@ -9,15 +9,15 @@
 
 void reverse_array(int *a, int n)
 {
-	int control, control1, control2;
+	int i, j, temp;
 
-	for (control = 0; control < n - 1; control++)
+	for (i = 0; i < n - 1; i++)
 	{
-		for (control1 = control + 1; control1 > 0; control--)
+		for (j = i + 1; j > 0; j--)
 		{
-			control2 = *(a + control1);
-			*(a + control1) = *(a + (control1 - 1));
-			*(a + (control1 - 1)) = control2;
+			temp = *(a + j);
+			*(a + j) = *(a + (j - 1));
+			*(a + (j - 1)) = temp;
 		}
 	}
 }
