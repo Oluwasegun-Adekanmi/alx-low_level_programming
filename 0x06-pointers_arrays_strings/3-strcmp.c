@@ -15,8 +15,7 @@ int _strcmp(char *s1, char *s2)
 	for (control = 0; s1[control] != '\0'; control++;)
 	{
 
-		if
-			(s1[control] == s2[control]);
+		if (s1[control] == s2[control]);
 
 		{
 			return (s1[control] = s2[control]);
