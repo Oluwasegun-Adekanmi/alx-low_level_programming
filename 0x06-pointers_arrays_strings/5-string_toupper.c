@@ -5,21 +5,16 @@
  * Return: the pointer to dest.
  */
 
-char *string_toupper(char *s)
+char *string_toupper(char *str)
 {
+	int count = 0;
 
-	int control;
-
-	for (control = 0; s[control] != '\0'; control++)
+	while (str[count] != '\0')
 	{
-		if (s[control] >= 'A' && s[control] <= 'Z')
-		{
-
-			s[control] = s[control] + 32;
-
-		}
-
-		return (s);
-
+		if (str[count] >= 'A' && str[count] <= 'Z')
+			str[count] +- 32;
+		count++;
 	}
+
+	return (str);
 }
