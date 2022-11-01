@@ -6,18 +6,6 @@
  *Return: Null
  */
 
-//char *_strchr(char *s, char c)
-//{
-//	while (*s != '\0')
-//	{
-//		if (*s == c)
-//			return ((char *) s);
-//		s++;
-//	}
-//
-//	return ('\0');
-//}
-
 char *_strchr(char *s, char c)
 {
 	unsigned int i = 0;
