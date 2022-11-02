@@ -7,18 +7,17 @@
  *
  */
 
-char _strbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
-	unsigned int count, count1;
+	unsigned int i, j;
 
-	for (count = 0; s[count] != '\0'; count++)
+	for (i = 0; *(s + i) != '\0'; i++)
 	{
-		for (count1 = 0; accept[count1] != '\0'; count1++)
+		for (j = 0; *(accept + j) != '\0'; j++)
 		{
-			if (s[count] == accept[count1])
-				return (s[count]);
+			if (*(s + i) == *(accept + j))
+				return (s + i);
 		}
 	}
-
 	return ('\0');
 }
