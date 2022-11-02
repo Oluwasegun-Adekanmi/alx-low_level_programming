@@ -7,7 +7,7 @@
  *
  */
 
-unsigned int _strbrk(char *s, char *accept)
+char _strbrk(char *s, char *accept)
 {
 	unsigned int count, count1;
 
